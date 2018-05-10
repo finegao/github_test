@@ -1,0 +1,24 @@
+{
+  "name": "mama",
+  "version": "1.0.1",
+  "dependencies": {
+    "glup": "*"
+  },
+  "description": "npm test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wo"
+  ],
+  "author": "me",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  },
+  "scripts": {
+    "serve-dev" : "live-server build",
+    "start": "npm run serve-dev"
+  }
+}
